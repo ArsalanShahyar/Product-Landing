@@ -58,7 +58,7 @@ h1 {
     }
     nav {
         position: relative;
-        
+
         bottom: 120px;
 
     }
@@ -113,4 +113,8 @@ ul li ul li {
 }
 ul li:hover ul {
 	display: block;
+}
+#video{
+    display: flex;
+    flex-direction:row-reverse;
 }
