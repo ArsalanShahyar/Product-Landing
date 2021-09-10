@@ -116,5 +116,16 @@ ul li:hover ul {
 }
 #video{
     display: flex;
-    flex-direction:row-reverse;
+    justify-content: center;
+
+}
+#email {
+    width:380px;
+    height:30px;
+    
+    
+}
+form {
+    display: flex;
+    justify-content: center;
 }
