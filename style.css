@@ -54,11 +54,12 @@ h1 {
         width: 230px;
         height: 200px;
         margin-top: 20px;
+        display:inline;
     }
     nav {
         position: relative;
-        right: 100px;
-        bottom: 200px;
+        
+        bottom: 120px;
 
     }
     
