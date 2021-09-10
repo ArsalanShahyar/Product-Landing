@@ -11,3 +11,39 @@ nav {
 	border-right-radius: 30px;
 	font-family: b nazanin;
 }
+ul {
+	list-style-type: none;
+	display: inline;
+}
+ul li {
+	float: right;
+	width: 146px;
+	height: 35px;
+	font-color: #fff;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #1a1a1a;
+}
+ul li:hover {
+	background-color: black;
+	color: red;
+}
+ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+	display: inline;
+	font-weight: 900;
+}
+ul li ul {
+	display: none;
+}
+ul li ul li {
+	width: 150px;
+	height: 40px;
+	margin-right: -5px;
+	margin-top: -9px;
+}
+ul li:hover ul {
+	display: block;
+}
