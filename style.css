@@ -1,0 +1,13 @@
+header {
+    width: 100%;
+    height: auto;
+    background-color:white;
+}
+nav {
+	opacity: 0.9;
+	height: 40px;
+	margin-right: 50px;
+	margin-top: 10px;
+	border-right-radius: 30px;
+	font-family: b nazanin;
+}
