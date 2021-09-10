@@ -6,18 +6,18 @@ header {
 nav {
 	opacity: 0.9;
 	height: 40px;
-	margin-right: 50px;
+	margin-left: 330px;
 	margin-top: 10px;
 	border-right-radius: 30px;
-	font-family: b nazanin;
+	font-family: Courgette;
 }
 ul {
 	list-style-type: none;
 	display: inline;
 }
 ul li {
-	float: right;
-	width: 146px;
+	float: left;
+	width: 200px;
 	height: 35px;
 	font-color: #fff;
 	text-align: center;
