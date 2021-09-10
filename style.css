@@ -129,3 +129,10 @@ form {
     display: flex;
     justify-content: center;
 }
+.pc {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height:auto;
+    background-color: darkorange;
+}
