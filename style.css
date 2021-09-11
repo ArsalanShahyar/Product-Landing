@@ -83,3 +83,19 @@ nav {
   width:auto;
   height:500px;
 }
+.products {
+  font-size: 35px;
+  color:darkgrey;
+  margin-top:80px;
+}
+.lines {
+  display:inline-block;
+  width:86%;
+  border-bottom: 10px solid darkgrey;
+  border-radius: 10px;
+  margin-top:80px;
+}
+.product {
+  display:grid;
+  
+}
