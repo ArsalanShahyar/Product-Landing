@@ -171,7 +171,17 @@ display:flex;
 justify-content: center;
 align-items: center;
 position: relative;
-right:-280px;
+right:-530px;
 top:-31px;
 
+}
+.footer-link {
+  color:white;
+  font-size:20px;
+  margin-right:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right:140px;
 }
