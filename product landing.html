@@ -8,28 +8,32 @@
 
     <title>Soft Hub</title>
     <style>
- 
+
     </style>
 
-    
+
 
 </head>
 
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <header id="header">
-       <!-- <h1 id="title">Soft Hub Online Shopping</h1>
+        <!-- <h1 id="title">Soft Hub Online Shopping</h1>
         <h2 id="title2">The best prodcuts just by one call</h2><br>-->
-        <div><img src="https://raw.githubusercontent.com/ArsalanShahyar/Product-Landing/master/images.png"
-                id="header-img" alt="Logo"> </div>
+        <div id="image"><img src="download.png" id="header-img" alt="Logo"></div>
+        
 
         <nav id="nav-bar">
-            
-                 <a class="nav-link" href="#Dell">Dell computers</a>
-                <a  class="nav-link"href="#HP">Hp computers            </a>
-                <a  class="nav-link"href="#mac">Mac computers</a>
-            
 
+            <a class="nav-link" href="#Dell">computers</a>
+            <a class="nav-link" href="#HP">Mobiles</a>
+            <a class="nav-link" href="#mac">Televisions</a>
+
+            <div id="input">
+                <input type="search" id="search" placeholder="What do you need?">
+                <input type="submit" id="SB" value="Search">
+            
+            </div>
         </nav>
     </header>
     <br><br>
@@ -38,7 +42,7 @@
         <input type="submit" id="submit">
     </form>
     <h2 id="Computer"> Computers Product</h2>
-   <!--- <div id="video-div">
+    <!--- <div id="video-div">
         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Y-YAroDtGiw"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -46,18 +50,22 @@
     </div>-->
     </div>
     <div class="product">
-        <div class="level" id="Dell"><h2 >Dell Computer</h2></div>
-    <h2>$600</h2>
-    <ol>
-        <li>Company: Dell</li>
-        <li>Country: USA</li>
-        <li>City: Callfronia</li>
+        <div class="level" id="Dell">
+            <h2>Dell Computer</h2>
+        </div>
+        <h2>$600</h2>
+        <ol>
+            <li>Company: Dell</li>
+            <li>Country: USA</li>
+            <li>City: Callfronia</li>
 
-    </ol>
-    <button class="btn">Select</button>
+        </ol>
+        <button class="btn">Select</button>
     </div>
     <div class="product" id="bass">
-        <div class="level" id="HP"><h2 >HP Computer</h2></div>
+        <div class="level" id="HP">
+            <h2>HP Computer</h2>
+        </div>
         <h2>$900</h2>
         <ol>
             <li>Company: HP</li>
@@ -67,7 +75,9 @@
         <button class="btn">Select</button>
     </div>
     <div class="product" id="valve">
-        <div class="level" id="mac"><h2 >>Mac Computers</h2></div>
+        <div class="level" id="mac">
+            <h2>>Mac Computers</h2>
+        </div>
         <h2>$1200</h2>
         <ol>
             <li>Company: Mac</li>
