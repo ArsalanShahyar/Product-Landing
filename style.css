@@ -136,3 +136,23 @@ h2 {
   text-align: center;
   margin:5px;
 }
+#other-line {
+     width: 75%;
+}
+  #video-div{
+    display: flex;
+    justify-content: center;
+}
+#video {
+    width: 60%;
+
+}
+footer {
+  width: 100%;
+  height:200px;
+}
+#email {
+  width:380px;
+  height:30px;
+  
+  
