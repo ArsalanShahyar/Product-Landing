@@ -6,16 +6,21 @@ header {
     top: 0px;
     width: 100%;
     background-color: white;
-    border: 5px solid salmon;
+
 }
 #title {
     color:salmon;
     text-align:center;
     font-size: 50px;
+    position: relative;
+    top:250px;
 }
 #title2 {
-  color:sandybrown;
+    color:sandybrown;
     text-align:center;
+    position: relative;
+    top:250px;
+    font-size:40px;
 }
 #header-img {
   width:auto;
@@ -71,4 +76,10 @@ nav {
   cursor:pointer;
   border:white solid 2px;
 
+}
+#back-page {
+  background-image: url(back-pic.jpg);
+  background-size:cover;
+  width:auto;
+  height:500px;
 }
