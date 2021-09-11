@@ -2,10 +2,12 @@ body {
   font-family: Courgette;
 }
 header {
-  position: sticky;
+  z-index: 5;
+  background-color: white;
+  position: fixed;
     top: 0px;
     width: 100%;
-    background-color: white;
+    
 
 }
 #title {
@@ -95,7 +97,37 @@ nav {
   border-radius: 10px;
   margin-top:80px;
 }
-.product {
+.container {
   display:grid;
+  grid-template-columns:auto auto auto ;
+
+  background-color:rgb(238, 238, 238) ;
   
+
+}
+
+.grid-img {
+  width:300px;
+  height:300px;
+}
+.level {
+  text-align:center;
+}
+p {
+  text-align:center
+}
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+  text-align: center;
+}
+h2 {
+  text-align: center;
 }
